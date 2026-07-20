@@ -82,3 +82,7 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils
+
+PRODUCT_PACKAGES += \
+    consumerir.peel \
+    consumerir.spidev
