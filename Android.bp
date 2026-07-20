@@ -374,3 +374,5420 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+
+cc_prebuilt_binary {
+    name: "vince_mm-qcamera-daemon",
+    owner: "xiaomi",
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/bin/overlayfs/vince/mm-qcamera-daemon"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    strip: {
+        none: true,
+    },
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromaflash",
+    stem: "libchromaflash.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromaflash.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libflash_pmic",
+    stem: "libflash_pmic.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libflash_pmic.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libjpegdhw",
+    stem: "libjpegdhw.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libjpegdhw.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libjpegdmahw",
+    stem: "libjpegdmahw.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libjpegdmahw.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libjpegehw",
+    stem: "libjpegehw.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libjpegehw.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_c2d_module",
+    stem: "libmmcamera2_c2d_module.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_c2d_module.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_cpp_module",
+    stem: "libmmcamera2_cpp_module.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_cpp_module.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_dcrf",
+    stem: "libmmcamera2_dcrf.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_dcrf.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_frame_algorithm",
+    stem: "libmmcamera2_frame_algorithm.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_frame_algorithm.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_iface_modules",
+    stem: "libmmcamera2_iface_modules.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_iface_modules.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_imglib_modules",
+    stem: "libmmcamera2_imglib_modules.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_imglib_modules.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_is",
+    stem: "libmmcamera2_is.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_is.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_isp_modules",
+    stem: "libmmcamera2_isp_modules.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_isp_modules.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_mct",
+    stem: "libmmcamera2_mct.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_mct.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_mct_shimlayer",
+    stem: "libmmcamera2_mct_shimlayer.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_mct_shimlayer.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_pp_buf_mgr",
+    stem: "libmmcamera2_pp_buf_mgr.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_pp_buf_mgr.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_pproc_modules",
+    stem: "libmmcamera2_pproc_modules.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_pproc_modules.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_q3a_core",
+    stem: "libmmcamera2_q3a_core.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_q3a_core.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_sensor_modules",
+    stem: "libmmcamera2_sensor_modules.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_sensor_modules.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_stats_algorithm",
+    stem: "libmmcamera2_stats_algorithm.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_stats_algorithm.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera2_stats_modules",
+    stem: "libmmcamera2_stats_modules.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera2_stats_modules.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_cac3_lib",
+    stem: "libmmcamera_cac3_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_cac3_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_chromaflash_lib",
+    stem: "libmmcamera_chromaflash_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_chromaflash_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_dbg",
+    stem: "libmmcamera_dbg.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_dbg.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_dcrf_lib",
+    stem: "libmmcamera_dcrf_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_dcrf_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_eebinparse",
+    stem: "libmmcamera_eebinparse.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_eebinparse.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_eeprom_util",
+    stem: "libmmcamera_eeprom_util.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_eeprom_util.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_eztune_module",
+    stem: "libmmcamera_eztune_module.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_eztune_module.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_facedetection_lib",
+    stem: "libmmcamera_facedetection_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_facedetection_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_faceproc",
+    stem: "libmmcamera_faceproc.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_faceproc.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_faceproc2",
+    stem: "libmmcamera_faceproc2.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_faceproc2.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_hdr_gb_lib",
+    stem: "libmmcamera_hdr_gb_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_hdr_gb_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_imglib",
+    stem: "libmmcamera_imglib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_imglib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_abf40",
+    stem: "libmmcamera_isp_abf40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_abf40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_bcc40",
+    stem: "libmmcamera_isp_bcc40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_bcc40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_be_stats44",
+    stem: "libmmcamera_isp_be_stats44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_be_stats44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_bf_stats47",
+    stem: "libmmcamera_isp_bf_stats47.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_bf_stats47.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_bg_stats44",
+    stem: "libmmcamera_isp_bg_stats44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_bg_stats44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_bhist_stats44",
+    stem: "libmmcamera_isp_bhist_stats44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_bhist_stats44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_bpc40",
+    stem: "libmmcamera_isp_bpc40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_bpc40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_chroma_enhan40",
+    stem: "libmmcamera_isp_chroma_enhan40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_chroma_enhan40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_chroma_suppress40",
+    stem: "libmmcamera_isp_chroma_suppress40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_chroma_suppress40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_clamp_encoder40",
+    stem: "libmmcamera_isp_clamp_encoder40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_clamp_encoder40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_clamp_video40",
+    stem: "libmmcamera_isp_clamp_video40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_clamp_video40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_clamp_viewfinder40",
+    stem: "libmmcamera_isp_clamp_viewfinder40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_clamp_viewfinder40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_color_correct40",
+    stem: "libmmcamera_isp_color_correct40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_color_correct40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_color_xform_encoder40",
+    stem: "libmmcamera_isp_color_xform_encoder40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_color_xform_encoder40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_color_xform_viewfinder40",
+    stem: "libmmcamera_isp_color_xform_viewfinder40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_color_xform_viewfinder40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_cs_stats44",
+    stem: "libmmcamera_isp_cs_stats44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_cs_stats44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_demosaic40",
+    stem: "libmmcamera_isp_demosaic40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_demosaic40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_demux40",
+    stem: "libmmcamera_isp_demux40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_demux40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_fovcrop_encoder40",
+    stem: "libmmcamera_isp_fovcrop_encoder40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_fovcrop_encoder40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_fovcrop_viewfinder40",
+    stem: "libmmcamera_isp_fovcrop_viewfinder40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_fovcrop_viewfinder40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_gamma40",
+    stem: "libmmcamera_isp_gamma40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_gamma40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_ihist_stats44",
+    stem: "libmmcamera_isp_ihist_stats44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_ihist_stats44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_linearization40",
+    stem: "libmmcamera_isp_linearization40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_linearization40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_ltm44",
+    stem: "libmmcamera_isp_ltm44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_ltm44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_luma_adaptation40",
+    stem: "libmmcamera_isp_luma_adaptation40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_luma_adaptation40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_mce40",
+    stem: "libmmcamera_isp_mce40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_mce40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_mesh_rolloff40",
+    stem: "libmmcamera_isp_mesh_rolloff40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_mesh_rolloff40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_rs_stats44",
+    stem: "libmmcamera_isp_rs_stats44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_rs_stats44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_scaler_encoder44",
+    stem: "libmmcamera_isp_scaler_encoder44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_scaler_encoder44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_scaler_viewfinder44",
+    stem: "libmmcamera_isp_scaler_viewfinder44.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_scaler_viewfinder44.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_sce40",
+    stem: "libmmcamera_isp_sce40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_sce40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_sub_module",
+    stem: "libmmcamera_isp_sub_module.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_sub_module.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_template",
+    stem: "libmmcamera_isp_template.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_template.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_isp_wb40",
+    stem: "libmmcamera_isp_wb40.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_isp_wb40.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_llvd",
+    stem: "libmmcamera_llvd.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_llvd.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_optizoom_lib",
+    stem: "libmmcamera_optizoom_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_optizoom_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_paaf_lib",
+    stem: "libmmcamera_paaf_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_paaf_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_pdaf",
+    stem: "libmmcamera_pdaf.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_pdaf.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_pdafcamif",
+    stem: "libmmcamera_pdafcamif.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_pdafcamif.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_ppbase_module",
+    stem: "libmmcamera_ppbase_module.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_ppbase_module.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_quadracfa",
+    stem: "libmmcamera_quadracfa.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_quadracfa.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_stillmore_lib",
+    stem: "libmmcamera_stillmore_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_stillmore_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_sw2d_lib",
+    stem: "libmmcamera_sw2d_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_sw2d_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_thread_services",
+    stem: "libmmcamera_thread_services.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_thread_services.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_tintless_algo",
+    stem: "libmmcamera_tintless_algo.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_tintless_algo.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_trueportrait_lib",
+    stem: "libmmcamera_trueportrait_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_trueportrait_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_tintless_bg_pca_algo",
+    stem: "libmmcamera_tintless_bg_pca_algo.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_tintless_bg_pca_algo.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_tuning",
+    stem: "libmmcamera_tuning.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_tuning.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_tuning_lookup",
+    stem: "libmmcamera_tuning_lookup.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_tuning_lookup.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_ubifocus_lib",
+    stem: "libmmcamera_ubifocus_lib.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_ubifocus_lib.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_imx486_ofilm",
+    stem: "libmmcamera_vince_imx486_ofilm.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_imx486_ofilm.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_imx486_ofilm_eeprom",
+    stem: "libmmcamera_vince_imx486_ofilm_eeprom.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_imx486_ofilm_eeprom.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_ov12a10_sunny",
+    stem: "libmmcamera_vince_ov12a10_sunny.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_ov12a10_sunny.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_ov12a10_sunny_eeprom",
+    stem: "libmmcamera_vince_ov12a10_sunny_eeprom.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_ov12a10_sunny_eeprom.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_ov5675_ofilm",
+    stem: "libmmcamera_vince_ov5675_ofilm.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_ov5675_ofilm.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_ov5675_ofilm_eeprom",
+    stem: "libmmcamera_vince_ov5675_ofilm_eeprom.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_ov5675_ofilm_eeprom.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_ov5675_qtech",
+    stem: "libmmcamera_vince_ov5675_qtech.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_ov5675_qtech.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmcamera_vince_ov5675_qtech_eeprom",
+    stem: "libmmcamera_vince_ov5675_qtech_eeprom.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmcamera_vince_ov5675_qtech_eeprom.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmjpeg",
+    stem: "libmmjpeg.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmjpeg.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmqjpeg_codec",
+    stem: "libmmqjpeg_codec.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmqjpeg_codec.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libmmqjpegdma",
+    stem: "libmmqjpegdma.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libmmqjpegdma.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libois_lc898122",
+    stem: "libois_lc898122.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libois_lc898122.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_liboptizoom",
+    stem: "liboptizoom.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/liboptizoom.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libqomx_jpegdec",
+    stem: "libqomx_jpegdec.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libqomx_jpegdec.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libqomx_jpegenc",
+    stem: "libqomx_jpegenc.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libqomx_jpegenc.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libqomx_jpegenc_pipe",
+    stem: "libqomx_jpegenc_pipe.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libqomx_jpegenc_pipe.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libremosaic_daemon",
+    stem: "libremosaic_daemon.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libremosaic_daemon.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libseemore",
+    stem: "libseemore.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libseemore.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libtrueportrait",
+    stem: "libtrueportrait.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libtrueportrait.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libubifocus",
+    stem: "libubifocus.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libubifocus.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+prebuilt_etc {
+    name: "camera_config.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/camera/camera_config.xml",
+    relative_install_path: "overlayfs/vince/camera",
+    prefer: true,
+}
+
+prebuilt_etc {
+    name: "vince_imx486_ofilm_chromatix.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/camera/vince_imx486_ofilm_chromatix.xml",
+    relative_install_path: "overlayfs/vince/camera",
+    prefer: true,
+}
+
+prebuilt_etc {
+    name: "vince_ov12a10_sunny_chromatix.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/camera/vince_ov12a10_sunny_chromatix.xml",
+    relative_install_path: "overlayfs/vince/camera",
+    prefer: true,
+}
+
+prebuilt_etc {
+    name: "vince_ov5675_ofilm_chromatix.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix.xml",
+    relative_install_path: "overlayfs/vince/camera",
+    prefer: true,
+}
+
+prebuilt_etc {
+    name: "vince_ov5675_qtech_chromatix.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix.xml",
+    relative_install_path: "overlayfs/vince/camera",
+    prefer: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libactuator_vince_dw9714v_ofilm",
+    stem: "libactuator_vince_dw9714v_ofilm.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libactuator_vince_dw9714v_ofilm.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libactuator_vince_dw9763_sunny",
+    stem: "libactuator_vince_dw9763_sunny.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libactuator_vince_dw9763_sunny.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_4k_preview_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_4k_preview_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_4k_preview_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_4k_video_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_4k_video_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_4k_video_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_common",
+    stem: "libchromatix_ov12a10_sunny_vince_common.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_common.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_hfr_120",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_hfr_60",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_hfr_90",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_liveshot",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_preview",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_snapshot",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_video",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_cpp_video_4k",
+    stem: "libchromatix_ov12a10_sunny_vince_cpp_video_4k.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_cpp_video_4k.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_default_preview_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_default_preview_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_default_preview_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_default_video_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_default_video_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_default_video_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_hfr_120",
+    stem: "libchromatix_ov12a10_sunny_vince_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_hfr_120_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_hfr_120_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_hfr_120_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_hfr_60",
+    stem: "libchromatix_ov12a10_sunny_vince_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_hfr_60_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_hfr_60_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_hfr_60_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_hfr_90",
+    stem: "libchromatix_ov12a10_sunny_vince_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_hfr_90_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_hfr_90_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_hfr_90_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_postproc",
+    stem: "libchromatix_ov12a10_sunny_vince_postproc.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_postproc.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_preview",
+    stem: "libchromatix_ov12a10_sunny_vince_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_snapshot",
+    stem: "libchromatix_ov12a10_sunny_vince_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_video_4k",
+    stem: "libchromatix_ov12a10_sunny_vince_video_4k.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_video_4k.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_zsl_preview_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_zsl_preview_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_zsl_preview_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_ov12a10_sunny_vince_zsl_video_dw9763",
+    stem: "libchromatix_ov12a10_sunny_vince_zsl_video_dw9763.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_ov12a10_sunny_vince_zsl_video_dw9763.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_120",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_60",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_90",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_liveshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_preview",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_snapshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_video",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_default_preview_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_default_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_default_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_default_video",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_default_video_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_default_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_default_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_120",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_120_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_120_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_120_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_60",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_60_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_60_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_60_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_90",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_90_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_90_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_hfr_90_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_liveshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_preview",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_snapshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_zsl_preview_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_zsl_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_zsl_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_ofilm_zsl_video_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_ofilm_zsl_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_ofilm_zsl_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_120",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_60",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_90",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_liveshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_preview",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_snapshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_video",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_default_preview_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_default_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_default_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_default_video",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_default_video_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_default_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_default_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_120",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_120_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_120_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_120_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_60",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_60_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_60_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_60_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_90",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_90_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_90_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_hfr_90_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_liveshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_preview",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_snapshot",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_preview_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_video_3a",
+    stem: "libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_auto_vince_ov5675_qtech_zsl_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_120",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_60",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_90",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_liveshot",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_preview",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_snapshot",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_cpp_video",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_default_preview_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_default_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_default_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_default_video",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_default_video_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_default_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_default_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_hfr_120",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_hfr_120_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_hfr_120_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_hfr_120_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_hfr_60",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_hfr_60_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_hfr_60_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_hfr_60_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_hfr_90",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_hfr_90_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_hfr_90_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_hfr_90_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_liveshot",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_preview",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_snapshot",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_zsl_preview_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_zsl_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_zsl_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_ofilm_zsl_video_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_ofilm_zsl_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_ofilm_zsl_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_120",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_60",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_90",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_liveshot",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_preview",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_snapshot",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_cpp_video",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_default_preview_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_default_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_default_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_default_video",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_default_video_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_default_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_default_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_hfr_120",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_hfr_120_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_hfr_120_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_hfr_120_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_hfr_60",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_hfr_60_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_hfr_60_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_hfr_60_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_hfr_90",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_hfr_90_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_hfr_90_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_hfr_90_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_liveshot",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_preview",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_snapshot",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_zsl_preview_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_zsl_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_zsl_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_soft_light_vince_ov5675_qtech_zsl_video_3a",
+    stem: "libchromatix_soft_light_vince_ov5675_qtech_zsl_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_soft_light_vince_ov5675_qtech_zsl_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_common",
+    stem: "libchromatix_vince_imx486_ofilm_common.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_common.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_hfr_120",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_hfr_60",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_hfr_90",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_liveshot",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_preview",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_snapshot",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_cpp_video",
+    stem: "libchromatix_vince_imx486_ofilm_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_default_preview_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_default_preview_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_default_preview_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_default_video",
+    stem: "libchromatix_vince_imx486_ofilm_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_default_video_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_default_video_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_default_video_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_hfr_120",
+    stem: "libchromatix_vince_imx486_ofilm_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_hfr_120_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_hfr_120_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_hfr_120_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_hfr_60",
+    stem: "libchromatix_vince_imx486_ofilm_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_hfr_60_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_hfr_60_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_hfr_60_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_hfr_90",
+    stem: "libchromatix_vince_imx486_ofilm_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_hfr_90_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_hfr_90_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_hfr_90_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_postproc",
+    stem: "libchromatix_vince_imx486_ofilm_postproc.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_postproc.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_preview",
+    stem: "libchromatix_vince_imx486_ofilm_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_snapshot",
+    stem: "libchromatix_vince_imx486_ofilm_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_zsl_preview_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_zsl_preview_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_zsl_preview_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_imx486_ofilm_zsl_video_dw9714v",
+    stem: "libchromatix_vince_imx486_ofilm_zsl_video_dw9714v.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_imx486_ofilm_zsl_video_dw9714v.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_common",
+    stem: "libchromatix_vince_ov5675_ofilm_common.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_common.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_hfr_120",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_hfr_60",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_hfr_90",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_liveshot",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_preview",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_snapshot",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_cpp_video",
+    stem: "libchromatix_vince_ov5675_ofilm_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_default_preview_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_default_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_default_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_default_video",
+    stem: "libchromatix_vince_ov5675_ofilm_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_default_video_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_default_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_default_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_hfr_120",
+    stem: "libchromatix_vince_ov5675_ofilm_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_hfr_120_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_hfr_120_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_hfr_120_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_hfr_60",
+    stem: "libchromatix_vince_ov5675_ofilm_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_hfr_60_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_hfr_60_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_hfr_60_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_hfr_90",
+    stem: "libchromatix_vince_ov5675_ofilm_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_hfr_90_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_hfr_90_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_hfr_90_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_liveshot",
+    stem: "libchromatix_vince_ov5675_ofilm_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_postproc",
+    stem: "libchromatix_vince_ov5675_ofilm_postproc.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_postproc.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_preview",
+    stem: "libchromatix_vince_ov5675_ofilm_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_snapshot",
+    stem: "libchromatix_vince_ov5675_ofilm_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_zsl_preview_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_zsl_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_zsl_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_ofilm_zsl_video_3a",
+    stem: "libchromatix_vince_ov5675_ofilm_zsl_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_ofilm_zsl_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_common",
+    stem: "libchromatix_vince_ov5675_qtech_common.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_common.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_hfr_120",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_hfr_60",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_hfr_90",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_liveshot",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_preview",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_snapshot",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_cpp_video",
+    stem: "libchromatix_vince_ov5675_qtech_cpp_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_cpp_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_default_preview_3a",
+    stem: "libchromatix_vince_ov5675_qtech_default_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_default_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_default_video",
+    stem: "libchromatix_vince_ov5675_qtech_default_video.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_default_video.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_default_video_3a",
+    stem: "libchromatix_vince_ov5675_qtech_default_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_default_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_hfr_120",
+    stem: "libchromatix_vince_ov5675_qtech_hfr_120.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_hfr_120.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_hfr_120_3a",
+    stem: "libchromatix_vince_ov5675_qtech_hfr_120_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_hfr_120_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_hfr_60",
+    stem: "libchromatix_vince_ov5675_qtech_hfr_60.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_hfr_60.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_hfr_60_3a",
+    stem: "libchromatix_vince_ov5675_qtech_hfr_60_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_hfr_60_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_hfr_90",
+    stem: "libchromatix_vince_ov5675_qtech_hfr_90.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_hfr_90.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_hfr_90_3a",
+    stem: "libchromatix_vince_ov5675_qtech_hfr_90_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_hfr_90_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_liveshot",
+    stem: "libchromatix_vince_ov5675_qtech_liveshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_liveshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_postproc",
+    stem: "libchromatix_vince_ov5675_qtech_postproc.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_postproc.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_preview",
+    stem: "libchromatix_vince_ov5675_qtech_preview.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_preview.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_snapshot",
+    stem: "libchromatix_vince_ov5675_qtech_snapshot.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_snapshot.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_zsl_preview_3a",
+    stem: "libchromatix_vince_ov5675_qtech_zsl_preview_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_zsl_preview_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vince_libchromatix_vince_ov5675_qtech_zsl_video_3a",
+    stem: "libchromatix_vince_ov5675_qtech_zsl_video_3a.so",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/overlayfs/vince/libchromatix_vince_ov5675_qtech_zsl_video_3a.so"],
+        },
+    },
+    compile_multilib: "32",
+    check_elf_files: false,
+    relative_install_path: "overlayfs/vince",
+    prefer: true,
+    soc_specific: true,
+}
+
