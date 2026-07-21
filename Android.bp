@@ -2350,46 +2350,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-prebuilt_etc {
-    name: "camera_config.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/camera/camera_config.xml",
-    relative_install_path: "overlayfs/vince/camera",
-    prefer: true,
-}
-
-prebuilt_etc {
-    name: "vince_imx486_ofilm_chromatix.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/camera/vince_imx486_ofilm_chromatix.xml",
-    relative_install_path: "overlayfs/vince/camera",
-    prefer: true,
-}
-
-prebuilt_etc {
-    name: "vince_ov12a10_sunny_chromatix.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/camera/vince_ov12a10_sunny_chromatix.xml",
-    relative_install_path: "overlayfs/vince/camera",
-    prefer: true,
-}
-
-prebuilt_etc {
-    name: "vince_ov5675_ofilm_chromatix.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/camera/vince_ov5675_ofilm_chromatix.xml",
-    relative_install_path: "overlayfs/vince/camera",
-    prefer: true,
-}
-
-prebuilt_etc {
-    name: "vince_ov5675_qtech_chromatix.xml",
-    owner: "xiaomi",
-    src: "proprietary/vendor/etc/camera/vince_ov5675_qtech_chromatix.xml",
-    relative_install_path: "overlayfs/vince/camera",
-    prefer: true,
-}
-
 cc_prebuilt_library_shared {
     name: "vince_libactuator_vince_dw9714v_ofilm",
     stem: "libactuator_vince_dw9714v_ofilm.so",
